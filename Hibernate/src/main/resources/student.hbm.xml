@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    
+    <class name="com.beans.Student" table="student" schema="sys">
+    <id name="id" column="sid"/>
+    <property name="name" column="ename"></property>
+        <property name="email" column="semail"></property>
+    
+        <property name="address" column="saddress"></property>
+    
+    
+    </class>
+    </hibernate-mapping>
